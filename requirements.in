@@ -1,0 +1,9 @@
+fastapi
+python-multipart
+uvicorn[standard]
+wsproto
+ariadne
+makefun
+sgqlc
+pyjwt
+python-pam

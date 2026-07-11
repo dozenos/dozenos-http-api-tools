@@ -1,0 +1,22 @@
+Source: dozenos-http-api-tools
+Section: contrib/net
+Priority: extra
+Maintainer: DozenOS Package Maintainers <maintainers@dozenos.local>
+Build-Depends: debhelper (>= 10),
+  python3,
+  python3-setuptools,
+  dh-virtualenv (>= 1.0),
+  python3-pip,
+  python3-venv
+Standards-Version: 3.9.6
+
+Package: dozenos-http-api-tools
+Architecture: any
+Pre-Depends: dpkg (>= 1.16.1),
+  python3,
+  ${misc:Pre-Depends}
+Depends: ${misc:Depends}
+Description: api tools for DozenOS
+  api tools for DozenOS
+
+
